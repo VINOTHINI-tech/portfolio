@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2a3a4b;
+  color: aliceblue;
+}
+
+.intern {
+  padding: 40px 20px;
+}
+
+/* Centered Title */
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* Flexbox Layout */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  max-width: 1200px;
+  margin: 50px auto;
+  align-items: center;
+  gap: 20px; /* Space between items */
+}
+
+/* Text Content */
+.text-container {
+  flex: 1; /* Occupies equal space */
+  min-width: 300px; /* Minimum width for flexibility */
+  padding: 0 20px; /* Add padding for spacing */
+}
+
+.text-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.text-container li {
+  margin-bottom: 10px;
+}
+
+/* Image Container */
+.image-container {
+  flex: 1; /* Occupies equal space */
+  min-width: 300px; /* Minimum width for flexibility */
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%; /* Ensure the image adapts to container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 500px; /* Restrict maximum width */
+}
+
+/* Responsive Design */
+
+/* Medium Devices (Tablets) */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 2.2rem; /* Slightly smaller title */
+  }
+
+  .text-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .text-container h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+
+  .text-container li {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+
+  .text-container p {
+    font-size: 1rem;
+  }
+}
+
+/* Small Devices (Mobile) */
+@media (max-width: 767px) {
+  .grid-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align items */
+  }
+
+  .text-container {
+    text-align: center; /* Center-align text for mobile */
+    padding: 0 10px; /* Smaller padding for mobile */
+  }
+
+  .image-container img {
+    width: 100%; /* Make the image take full width */
+    max-width: 100%; /* Prevent overflow */
+  }
+
+  .title {
+    font-size: 1.8rem; /* Smaller title for mobile */
+  }
+
+  .text-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .text-container h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .text-container p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+
+  .text-container ul {
+    padding-left: 10px; /* Adjust padding for lists */
+    margin: 0 auto;
+  }
+
+  .text-container li {
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+  }
+}

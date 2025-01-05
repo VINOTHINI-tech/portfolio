@@ -1,0 +1,142 @@
+/* General Styles */
+.skill {
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    text-align: center;
+}
+
+.skilline {
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    text-align: center;
+    max-width: 90%;
+}
+
+/* Flexbox for Container */
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    margin-right: 10px;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.skills-category {
+    flex: 1 1 45%; /* Adjusts to 45% width and shrinks if needed */
+    margin: 10px;
+    min-width: 280px; /* Ensures a minimum width */
+}
+
+/* Skill Row Styles */
+.skills-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping inside the row */
+    margin: 10px 0;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    gap: 10px;
+}
+
+/* Skill Image Styles */
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px; /* Adjusted size */
+    height: 100px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.img img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Titles */
+.title {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Remove Border */
+.no-border {
+    border: none;
+}
+
+/* Responsive Design with Media Queries */
+@media (max-width: 768px) {
+    .skill {
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+
+    .skilline {
+        font-size: 1rem;
+    }
+
+    .skills-container {
+        flex-direction: column; /* Stacks categories */
+        align-items: center;
+    }
+
+    .skills-category {
+        flex: 1 1 100%; /* Full width on small screens */
+        margin: 0;
+    }
+
+    .skills-row {
+        padding: 10px;
+    }
+
+    .img {
+        width: 60px;
+        height: 80px;
+    }
+
+    .img img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+
+    .skilline {
+        font-size: 0.9rem;
+    }
+
+    .img {
+        width: 50px;
+        height: 70px;
+    }
+
+    .img img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .skills-row {
+        padding: 5px;
+    }
+}
