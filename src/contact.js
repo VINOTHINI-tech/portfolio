@@ -11,7 +11,7 @@ function Contact() {
       <h1 className="qual m-auto text-center">Qualification</h1>
       <ul id="deg">
         <li><h3>SJSV School - SSLC: 81%</h3></li>
-        <li><h3>SJSV School - HSC: 81%</h3></li>
+        <li><h3>SJSV School - HSC: 73%</h3></li>
         <li><h3>ACET - UG: CGPA: 8.02</h3></li>
       </ul>
       <footer className="footer">
