@@ -1,4 +1,4 @@
-/* General Styles */
+
 .skill {
     margin-left: auto;
     margin-right: auto;
@@ -14,43 +14,43 @@
     max-width: 90%;
 }
 
-/* Flexbox for Container */
+
 .skills-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    flex-wrap: wrap; 
     margin-right: 10px;
     margin-left: 10px;
     gap: 20px;
 }
 
 .skills-category {
-    flex: 1 1 45%; /* Adjusts to 45% width and shrinks if needed */
+    flex: 1 1 45%; 
     margin: 10px;
-    min-width: 280px; /* Ensures a minimum width */
+    min-width: 280px; 
 }
 
-/* Skill Row Styles */
+
 .skills-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap; /* Allows wrapping inside the row */
+    flex-wrap: wrap; 
     margin: 10px 0;
     background-color: black;
     padding: 10px;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
     gap: 10px;
 }
 
-/* Skill Image Styles */
+
 .img {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80px; /* Adjusted size */
+    width: 80px; 
     height: 100px;
     color: aliceblue;
     text-align: center;
@@ -68,19 +68,19 @@ p {
     padding: 0;
 }
 
-/* Titles */
+
 .title {
     color: aliceblue;
     text-align: center;
     margin-bottom: 15px;
 }
 
-/* Remove Border */
+
 .no-border {
     border: none;
 }
 
-/* Responsive Design with Media Queries */
+
 @media (max-width: 768px) {
     .skill {
         font-size: 1.5rem;
@@ -92,12 +92,12 @@ p {
     }
 
     .skills-container {
-        flex-direction: column; /* Stacks categories */
+        flex-direction: column; 
         align-items: center;
     }
 
     .skills-category {
-        flex: 1 1 100%; /* Full width on small screens */
+        flex: 1 1 100%; 
         margin: 0;
     }
 

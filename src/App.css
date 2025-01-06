@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
   background: #20303a;
   margin: 0;
@@ -7,7 +7,7 @@ body {
   color: white;
 }
 
-/* Navigation Bar */
+
 #nav {
   display: flex;
   align-items: center;
@@ -56,7 +56,7 @@ body {
 
 
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   #nav {
     flex-wrap: wrap;
@@ -85,10 +85,10 @@ body {
 }
 
 
-/* Main Grid Layout */
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
   max-width: 1200px;
   margin: 50px auto;
@@ -96,7 +96,7 @@ body {
   align-items: center;
 }
 
-/* Text Content */
+
 .text-content {
   grid-column: 1 / 2;
   text-align: left;
@@ -139,7 +139,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Image Container */
+
 .image-container {
   grid-column: 2 / 3;
   text-align: center;
@@ -154,10 +154,10 @@ body {
   margin: 0 auto;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 1024px) {
   .grid-container {
-    grid-template-columns: 1fr; /* One column layout for smaller screens */
+    grid-template-columns: 1fr; 
     text-align: center;
   }
 

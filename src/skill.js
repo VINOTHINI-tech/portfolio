@@ -23,7 +23,7 @@ function Skill() {
                 <div className="skills-category">
                     <h2 className='title'>Front End</h2>
 
-                    {/* First Row */}
+                   
                     <div className="skills-row">
                         <div className="img">
                             <img src={html} alt="HTML logo" />
@@ -39,7 +39,7 @@ function Skill() {
                         </div>
                     </div>
 
-                    {/* Second Row */}
+                  
                     <div className="skills-row no-border">
                         <div className="img">
                             <img src={boot} alt="Bootstrap logo" />
@@ -59,7 +59,7 @@ function Skill() {
                 <div className='skills-category'>
                     <h2 className='title'>Tools</h2>
 
-                    {/* First Row */}
+                   
                     <div className="skills-row">
                         <div className="img">
                             <img src={vs} alt="VSCode logo" />
@@ -75,7 +75,7 @@ function Skill() {
                         </div>
                     </div>
 
-                    {/* Second Row */}
+                  
                     <div className="skills-row">
                         <div className="img">
                             <img src={ppt} alt="PowerPoint logo" />

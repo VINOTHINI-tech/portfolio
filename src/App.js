@@ -125,7 +125,7 @@ function App() {
         </div>
       </div>
 
-      {/* Sections */}
+     
       <div ref={skillRef}>
         <Skill />
       </div>

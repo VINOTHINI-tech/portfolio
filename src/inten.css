@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -10,28 +10,28 @@ body {
   padding: 40px 20px;
 }
 
-/* Centered Title */
+
 .title {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 40px;
 }
 
-/* Flexbox Layout */
+
 .grid-container {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  flex-wrap: wrap; 
   max-width: 1200px;
   margin: 50px auto;
   align-items: center;
-  gap: 20px; /* Space between items */
+  gap: 20px; 
 }
 
-/* Text Content */
+
 .text-container {
-  flex: 1; /* Occupies equal space */
-  min-width: 300px; /* Minimum width for flexibility */
-  padding: 0 20px; /* Add padding for spacing */
+  flex: 1; 
+  min-width: 300px; 
+  padding: 0 20px; 
 }
 
 .text-container ul {
@@ -44,25 +44,23 @@ body {
   margin-bottom: 10px;
 }
 
-/* Image Container */
+
 .image-container {
-  flex: 1; /* Occupies equal space */
-  min-width: 300px; /* Minimum width for flexibility */
+  flex: 1; 
+  min-width: 300px; 
   text-align: center;
 }
 
 .image-container img {
-  width: 100%; /* Ensure the image adapts to container */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 500px; /* Restrict maximum width */
+  width: 100%; 
+  height: auto; 
+  max-width: 500px; 
 }
 
-/* Responsive Design */
 
-/* Medium Devices (Tablets) */
 @media (max-width: 1024px) {
   .title {
-    font-size: 2.2rem; /* Slightly smaller title */
+    font-size: 2.2rem; 
   }
 
   .text-container h2 {
@@ -84,25 +82,25 @@ body {
   }
 }
 
-/* Small Devices (Mobile) */
+
 @media (max-width: 767px) {
   .grid-container {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center-align items */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .text-container {
-    text-align: center; /* Center-align text for mobile */
-    padding: 0 10px; /* Smaller padding for mobile */
+    text-align: center; 
+    padding: 0 10px; 
   }
 
   .image-container img {
-    width: 100%; /* Make the image take full width */
-    max-width: 100%; /* Prevent overflow */
+    width: 100%; 
+    max-width: 100%; 
   }
 
   .title {
-    font-size: 1.8rem; /* Smaller title for mobile */
+    font-size: 1.8rem; 
   }
 
   .text-container h2 {
@@ -120,7 +118,7 @@ body {
   }
 
   .text-container ul {
-    padding-left: 10px; /* Adjust padding for lists */
+    padding-left: 10px; 
     margin: 0 auto;
   }
 

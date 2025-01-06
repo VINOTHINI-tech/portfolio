@@ -1,4 +1,4 @@
-/* General styling */
+
 body {
   margin: 0;
   padding: 0;
@@ -63,7 +63,7 @@ body {
   color: #666;
 }
 
-/* Responsive styling */
+
 @media (max-width: 1023px) {
   .project-container {
       gap: 15px;

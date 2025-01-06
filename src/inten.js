@@ -1,13 +1,13 @@
 import React from 'react';
-import './inten.css'; // Ensure CSS is imported
-import women from './assets/women.avif'; // Ensure the image path is correct
+import './inten.css'; 
+import women from './assets/women.avif'; 
 
 function Intern() {
     return (
         <div className="intern">
             <h1 className="title">Internship</h1>
             <div className="grid-container">
-                {/* Text Content */}
+                
                 <div className="text-container">
                     <h2>Front End Developer</h2>
                     <h3>Veranda Race Learning Solution Private Limited</h3>
@@ -44,7 +44,7 @@ function Intern() {
                     </p>
                 </div>
 
-                {/* Image Content */}
+                
                 <div className="image-container">
                     <img src={women} alt="Working Woman" />
                 </div>
